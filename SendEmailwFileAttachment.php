@@ -40,7 +40,7 @@
 	}
 		
 	// Only accept POSTs from authenticated source
-	if ($_POST['HandshakeKey'] != 'secret-handshake-key') {
+	if ($_POST['HandshakeKey'] != 'Iloveleslie1') {
 	  echo "<h1>You are not who you say you are, mister man.</h1>";
 		die();
 	}
